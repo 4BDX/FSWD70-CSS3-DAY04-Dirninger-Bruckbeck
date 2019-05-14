@@ -1,5 +1,14 @@
+@media screen and (max-width: 700px) {
+  body {
+    background-color: lightgreen; } }
+@media screen and (min-width: 701px) and (max-width: 1200px) {
+  body {
+    background-color: deepskyblue; } }
+@media screen and (min-width: 1201px) {
+  body {
+    background-color: darksalmon; } }
 .container {
-  background-color: black; }
+  width: 100%; }
 
 .row1 {
   display: flex;
@@ -12,5 +21,18 @@
 .row3 {
   display: flex;
   flex-flow: row; }
+
+.row1 img {
+  margin: 35px; }
+
+.row2 img {
+  margin: 35px; }
+
+.row3 img {
+  margin: 35px; }
+
+img {
+  width: 33%;
+  height: auto; }
 
 /*# sourceMappingURL=foto.css.map */
