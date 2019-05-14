@@ -1,13 +1,13 @@
 @media screen and (max-width:700px)
 	body
 		background-color: lightgreen
+
 	.container
 		width: 100%
 
 	.row1
 		display: flex
 		flex-flow: column
-
 
 	.row2
 		display: flex
@@ -19,11 +19,13 @@
 
 	.row1 img
 		margin: 35px
+
 	.row2 img
 		margin: 35px
+
 	.row3 img
 		margin: 35px
-
+	
 	img
 		width: 33%
 		height: auto
@@ -37,12 +39,31 @@
 		align-items: center
 		flex-flow: column
 
+	.row1
+		display: flex
+		flex-flow: column
+		justify-items: center
+
+	.box1
+		display: flex
+		flex-flow: row
+		align-items: center
+		justify-content: space-around
+
+	.text
+		position: relative
+		bottom: 10em
+		left: 33em
+	
 	img
 		max-width: 100%
 		height: auto
-	
+		align: center
 
-
+	.text
+		align-items: right
+		display: flex
+		justify-items: right
 
 @media screen and (min-width: 1201px)
 	body
@@ -51,24 +72,9 @@
 	.container
 		width: 100%
 		display: flex
-		flex-flow: column
-		align-items: center
-		justify-items: center
-
-
-	.row1
-		display: flex
 		flex-flow: row
-		justify-items: center 
-
-	.row2
-		display: flex
-		flex-flow: row
-		align-items: center
-
-	.row3
-		display: flex
-		flex-flow: row
+		
+		
 
 	.row1 img
 		margin: 35px
@@ -84,8 +90,16 @@
 		height: auto
 		vertical-align: text-bottom
 
-	.box1
+	.box1 
 		display: flex
-		flex-wrap: wrap
 		flex-flow: column
+		margin-bottom: 0 auto
+		
+
+	.text
+		display: flex
+		flex-flow: column
+		position: left
+
+
 
