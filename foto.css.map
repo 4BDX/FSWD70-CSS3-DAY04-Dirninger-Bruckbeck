@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,UAAU;EACT,gBAAgB,EAAE,KAAK;;AAExB,KAAK;EACJ,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,GAAG;;AACf,KAAK;EACJ,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,GAAG;;AACf,KAAK;EACJ,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,GAAG",
+"sources": ["foto.sass"],
 "names": [],
 "file": "foto.css"
 }
