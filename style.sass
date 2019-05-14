@@ -1,0 +1,36 @@
+$background: red
+$background-color: violet
+
+body
+	position: absolute
+	top: 50px
+	left: 220px
+	transform: rotate(120deg)
+	transition-property: transform, top, left
+	transition-duration: 5s
+
+div
+	display: flex
+	justify-content: center
+	align-items: center
+	border: 3px solid #ccc
+	margin-bottom: 10px
+	width: 500px
+	height: 150px
+	font-family: verdana
+	font-size: 16px
+
+#link1
+	background-color: $background
+
+#link2
+	background-color: $background-color
+
+#link3
+	background-color: brown
+
+#link1:hover
+	transform: rotate(120deg)
+	
+
+
